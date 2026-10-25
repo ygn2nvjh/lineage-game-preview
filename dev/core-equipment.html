@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>類天堂 V0.6｜獨立裝備測試</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 12px; background: #14251b; color: #f4e8c6; font: 14px/1.6 system-ui, sans-serif; }
+    main { max-width: 1200px; margin: auto; }
+    button, select { font: inherit; max-width: 100%; padding: 4px; margin: 3px; }
+    .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+    .gearTestBox { border: 1px solid #bca675; border-radius: 7px; padding: 10px; min-width: 0; }
+    .gearBagRow { border-bottom: 1px solid #506050; padding: 8px 0; }
+    .gearBagRow > span { display: block; overflow-wrap: anywhere; }
+    [data-field="attributes"] { white-space: pre-wrap; }
+    [data-field="catalog"], [data-field="weapon"], [data-field="result"] { overflow-wrap: anywhere; }
+    [data-field="result"] { min-height: 28px; }
+    [data-ok="false"] { color: #ffb9a9; }
+    h1 { font-size: 20px; } h2 { font-size: 17px; }
+    @media (max-width: 700px) { .panels { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main id="equipment-test" data-status="loading">
+  <h1>V0.6 獨立人物裝備／背包測試</h1>
+  <p>開發驗證工具；不載入正式角色、不連接 HUD／戰鬥、不讀寫正式存檔。物品數值來自固定台版 L1J 社群資料，不宣稱為官方公式。</p>
+  <label>固定場景 <select data-role="scenario" disabled></select></label>
+  <button type="button" data-action="reset" disabled>重新載入場景</button>
+  <p data-field="description"></p>
+  <p data-field="result" role="status" aria-live="polite">載入中…</p>
+  <div data-field="checks"></div>
+  <div class="panels">
+    <section class="gearTestBox" id="character-panel">
+      <h2>人物／裝備（測試）</h2>
+      <p data-field="identity"></p>
+      <p>revision <b data-field="revision"></b></p>
+      <p>HP <b data-field="hp"></b>　MP <b data-field="mp"></b></p>
+      <p>AC <b data-field="ac"></b>　DR <b data-field="dr"></b></p>
+      <p>MR <b data-field="mr"></b>　ER <b data-field="er"></b>　負重 <b data-field="weight"></b></p>
+      <p data-field="attributes"></p>
+      <p>SQL裝備加成：<span data-field="bonuses"></span></p>
+      <p>核心武器解析：<span data-field="weapon"></span></p>
+      <h3>已穿戴部位</h3><div data-field="slots"></div>
+    </section>
+    <section class="gearTestBox" id="inventory-panel">
+      <h2>背包（測試）</h2>
+      <p>持有 <b data-field="count"></b> 件，包含已穿戴物；同一實例只屬於一個角色。</p>
+      <div data-field="inventory"></div>
+    </section>
+  </div>
+  <p>固定資料版本：<span data-field="catalog"></span></p>
+</main>
+<script type="module">
+  import { startEquipmentPage } from '../src/adapters/browser/core-equipment.mjs';
+  // Errors are shown by the adapter; no fallback catalog or fake successful load.
+  startEquipmentPage(document.getElementById('equipment-test')).catch(() => {});
+</script>
+</body>
+</html>

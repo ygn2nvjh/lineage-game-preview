@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "https://github.com/nonono44/l1j-tw-99nets",
+  "sourceBranch": "master",
+  "sourceDirectory": "L1J-TW_3.80c/db/Taiwan",
+  "dataType": "raw SQL fields converted to JSON string values",
+  "totalRows": 2992,
+  "totalParts": 34,
+  "tables": [
+    {
+      "table": "weapon",
+      "rows": 351,
+      "columns": 45,
+      "parts": [
+        {
+          "path": "data/l1j-taiwan/items/weapon-part-01.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/weapon-part-02.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/weapon-part-03.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/weapon-part-04.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/weapon-part-05.json",
+          "rows": 51
+        }
+      ]
+    },
+    {
+      "table": "armor",
+      "rows": 643,
+      "columns": 55,
+      "parts": [
+        {
+          "path": "data/l1j-taiwan/items/armor-part-01.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-02.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-03.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-04.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-05.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-06.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-07.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-08.json",
+          "rows": 75
+        },
+        {
+          "path": "data/l1j-taiwan/items/armor-part-09.json",
+          "rows": 43
+        }
+      ]
+    },
+    {
+      "table": "etcitem",
+      "rows": 1998,
+      "columns": 29,
+      "parts": [
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-01.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-02.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-03.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-04.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-05.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-06.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-07.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-08.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-09.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-10.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-11.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-12.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-13.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-14.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-15.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-16.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-17.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-18.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-19.json",
+          "rows": 100
+        },
+        {
+          "path": "data/l1j-taiwan/items/etcitem-part-20.json",
+          "rows": 98
+        }
+      ]
+    }
+  ],
+  "validation": "All parsed INSERT rows matched original CREATE TABLE column counts; gameplay data not switched",
+  "notes": "Original SQL row values are preserved as strings to avoid type conversion or precision loss. Source provenance is not a guarantee of official commercial Lineage server equivalence."
+}

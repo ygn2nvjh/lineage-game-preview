@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "taiwan-items:sha256:ace890184343c071ebe2f6cf7c2590f22909955dc7835e6739f857e22ba98bd4",
+  "provenance": {
+    "repository": "https://github.com/nonono44/l1j-tw-99nets",
+    "referenceSha": "8aa24617476a7d8f6a7072687279c77cf9f3d405",
+    "sourceDirectory": "L1J-TW_3.80c/db/Taiwan",
+    "localBaseline": "bb4a13f0765ae12b134a3fb98088f4879fc3778d",
+    "verification": "Selected complete SQL rows compared to pinned upstream Taiwan armor.sql/weapon.sql; not official commercial-server validation.",
+    "rowHashes": [
+      {
+        "templateId": 31,
+        "table": "weapon",
+        "rowSha256": "5035bf8e878cec30e916c5b14846f215602ccc6b84f614f80fc6b14cd2d98afd"
+      },
+      {
+        "templateId": 42,
+        "table": "weapon",
+        "rowSha256": "15b2655fe0df43fcc8ca350e07fd4885992bfaf1bc450d8999ca359587d43bf5"
+      },
+      {
+        "templateId": 113,
+        "table": "weapon",
+        "rowSha256": "1065862dc41d508f45debd70c194317a701f7bb0d1b25e3e1f7e2576a5122ff4"
+      },
+      {
+        "templateId": 20011,
+        "table": "armor",
+        "rowSha256": "c23063415af91682d06e60d867c746b0fda8f27de2b10b0aa4e6ef84a48cccc5"
+      },
+      {
+        "templateId": 20020,
+        "table": "armor",
+        "rowSha256": "c3ad50aac8e97205b6a57768086ed71d28c46e93cee177979399320c4dad222b"
+      },
+      {
+        "templateId": 20056,
+        "table": "armor",
+        "rowSha256": "4f452a96f28f747b0c2733968378379382f969d1f9da00266821328be92f5059"
+      },
+      {
+        "templateId": 20058,
+        "table": "armor",
+        "rowSha256": "a68b104f607464eeea310ed19768877d1abb20dc9178ab70c178c7d4e5f571ff"
+      },
+      {
+        "templateId": 20075,
+        "table": "armor",
+        "rowSha256": "84b273c2bc84329b561a7c3247cfe27b03273cd8ef8e2336a9b4eabf44430dd7"
+      },
+      {
+        "templateId": 20092,
+        "table": "armor",
+        "rowSha256": "039d90c81d6542790d0b63e6b113fcec63222aa3cbfd7374506c34b8fbbb8233"
+      },
+      {
+        "templateId": 20110,
+        "table": "armor",
+        "rowSha256": "a1789010305deb2546997194e4c398d57b951be0312cb16fe606be336a64e780"
+      },
+      {
+        "templateId": 20113,
+        "table": "armor",
+        "rowSha256": "82a8711ced3c2e0c8531dfa2541d05efbf21ecbf978bada629168999f9e9a835"
+      },
+      {
+        "templateId": 20167,
+        "table": "armor",
+        "rowSha256": "324d26c099b38698c3e52536d451f8dcaae3344401502bf2bd4b63d4ccbc984f"
+      },
+      {
+        "templateId": 20187,
+        "table": "armor",
+        "rowSha256": "dc7b97c17c5df88ba0188f999a1bbfdfbed563ace575039397939239cfcc449f"
+      },
+      {
+        "templateId": 20194,
+        "table": "armor",
+        "rowSha256": "ce6588737eb44f070821391c368fd44f7350823e226fb6e77ccea930b9db96a5"
+      },
+      {
+        "templateId": 20201,
+        "table": "armor",
+        "rowSha256": "1728c3a02a2b1a30c5ea6cc4675871b6f53d0c7fb98b7f0c3d026a2468944a25"
+      },
+      {
+        "templateId": 20220,
+        "table": "armor",
+        "rowSha256": "955cd804960f9d3647aa01f40ddddfda5a7f933173caf47f68e3c6fcb3fce8a8"
+      },
+      {
+        "templateId": 20228,
+        "table": "armor",
+        "rowSha256": "ecdc088dfcb46b4ff7f3f0bd10ec3ed974af783e4317a805f4a6eb567833d139"
+      },
+      {
+        "templateId": 20264,
+        "table": "armor",
+        "rowSha256": "28549876503c881612d66985a223281e99f070368be73a30a351c9b90b6f5cb3"
+      },
+      {
+        "templateId": 20267,
+        "table": "armor",
+        "rowSha256": "07cb10974601d31336c9e6ebc9ad276823e766a995e0479950a476029f564511"
+      },
+      {
+        "templateId": 20280,
+        "table": "armor",
+        "rowSha256": "b70a498d227b847fd841a90a595e1fef89725b4a8809c8025b9768eae4a4d539"
+      },
+      {
+        "templateId": 20282,
+        "table": "armor",
+        "rowSha256": "9d3894861381c41d25b3c3a480d1913b8f817e03da85fb2653704b3c570df0cb"
+      },
+      {
+        "templateId": 20311,
+        "table": "armor",
+        "rowSha256": "31ff3fe6c6188f5fe5b8bc92913d103031e65b97fff0839b8054e2eb333696a7"
+      },
+      {
+        "templateId": 20314,
+        "table": "armor",
+        "rowSha256": "ee7cd0a6990e305c13e60bce6b559abe428a8894d32a07bff494bca52c323325"
+      },
+      {
+        "templateId": 20316,
+        "table": "armor",
+        "rowSha256": "0b8b734c3dcf282e866eee9c47c540a2b2cab16e5a9aace47502713dc34aad3e"
+      }
+    ]
+  },
+  "notes": "角色容量、目前資源及實例數量是明確測試場景，不是L1J永久成長或角色所有權證據。物品能力與限制全部來自固定catalog。",
+  "profiles": {
+    "knight1": {
+      "identity": {
+        "name": "獨立測試騎士",
+        "sex": "male",
+        "characterClass": "knight"
+      },
+      "originalStats": {
+        "str": 16,
+        "dex": 12,
+        "con": 18,
+        "int": 8,
+        "wis": 9,
+        "cha": 12
+      },
+      "base": {
+        "stats": {
+          "str": 16,
+          "dex": 12,
+          "con": 18,
+          "int": 8,
+          "wis": 9,
+          "cha": 12
+        },
+        "level": 1,
+        "experience": 0,
+        "hpCapacity": 16,
+        "mpCapacity": 1
+      },
+      "resources": {
+        "hp": 16,
+        "mp": 1
+      },
+      "effects": [],
+      "wallet": {
+        "adena": 0
+      },
+      "history": {
+        "lossRecords": []
+      }
+    },
+    "knight30": {
+      "identity": {
+        "name": "獨立測試騎士",
+        "sex": "male",
+        "characterClass": "knight"
+      },
+      "originalStats": {
+        "str": 16,
+        "dex": 12,
+        "con": 18,
+        "int": 8,
+        "wis": 9,
+        "cha": 12
+      },
+      "base": {
+        "stats": {
+          "str": 16,
+          "dex": 12,
+          "con": 18,
+          "int": 8,
+          "wis": 9,
+          "cha": 12
+        },
+        "level": 30,
+        "experience": 810016,
+        "hpCapacity": 100,
+        "mpCapacity": 20
+      },
+      "resources": {
+        "hp": 80,
+        "mp": 10
+      },
+      "effects": [],
+      "wallet": {
+        "adena": 0
+      },
+      "history": {
+        "lossRecords": []
+      }
+    },
+    "knight40": {
+      "identity": {
+        "name": "獨立測試騎士",
+        "sex": "male",
+        "characterClass": "knight"
+      },
+      "originalStats": {
+        "str": 16,
+        "dex": 12,
+        "con": 18,
+        "int": 8,
+        "wis": 9,
+        "cha": 12
+      },
+      "base": {
+        "stats": {
+          "str": 16,
+          "dex": 12,
+          "con": 18,
+          "int": 8,
+          "wis": 9,
+          "cha": 12
+        },
+        "level": 40,
+        "experience": 2560016,
+        "hpCapacity": 100,
+        "mpCapacity": 20
+      },
+      "resources": {
+        "hp": 80,
+        "mp": 10
+      },
+      "effects": [],
+      "wallet": {
+        "adena": 0
+      },
+      "history": {
+        "lossRecords": []
+      }
+    },
+    "knight45": {
+      "identity": {
+        "name": "獨立測試騎士",
+        "sex": "male",
+        "characterClass": "knight"
+      },
+      "originalStats": {
+        "str": 16,
+        "dex": 12,
+        "con": 18,
+        "int": 8,
+        "wis": 9,
+        "cha": 12
+      },
+      "base": {
+        "stats": {
+          "str": 16,
+          "dex": 12,
+          "con": 18,
+          "int": 8,
+          "wis": 9,
+          "cha": 12
+        },
+        "level": 45,
+        "experience": 4100642,
+        "hpCapacity": 100,
+        "mpCapacity": 20
+      },
+      "resources": {
+        "hp": 80,
+        "mp": 10
+      },
+      "effects": [],
+      "wallet": {
+        "adena": 0
+      },
+      "history": {
+        "lossRecords": []
+      }
+    },
+    "knight45-high": {
+      "identity": {
+        "name": "獨立測試騎士",
+        "sex": "male",
+        "characterClass": "knight"
+      },
+      "originalStats": {
+        "str": 16,
+        "dex": 12,
+        "con": 18,
+        "int": 8,
+        "wis": 9,
+        "cha": 12
+      },
+      "base": {
+        "stats": {
+          "str": 16,
+          "dex": 12,
+          "con": 18,
+          "int": 8,
+          "wis": 9,
+          "cha": 12
+        },
+        "level": 45,
+        "experience": 4100642,
+        "hpCapacity": 100,
+        "mpCapacity": 20
+      },
+      "resources": {
+        "hp": 180,
+        "mp": 60
+      },
+      "effects": [],
+      "wallet": {
+        "adena": 0
+      },
+      "history": {
+        "lossRecords": []
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "id": "basic-knight",
+      "label": "01 基礎騎士",
+      "description": "Lv1，無裝備；欄位只讀Snapshot。",
+      "actors": {
+        "hero": "knight1"
+      },
+      "items": [],
+      "equipment": [],
+      "checks": []
+    },
+    {
+      "id": "set-a",
+      "label": "02 套裝 A",
+      "description": "沿用舊測試抗魔力量裝10件；可逐件卸下、再穿戴。",
+      "actors": {
+        "hero": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "a-31",
+          "templateId": 31,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20011",
+          "templateId": 20011,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20110",
+          "templateId": 20110,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20056",
+          "templateId": 20056,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20187",
+          "templateId": 20187,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20194",
+          "templateId": 20194,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20220",
+          "templateId": 20220,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20264",
+          "templateId": 20264,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20280",
+          "templateId": 20280,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "a-20314",
+          "templateId": 20314,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [
+        {
+          "characterId": "hero",
+          "instanceId": "a-31",
+          "slot": "weapon"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20011",
+          "slot": "head"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20110",
+          "slot": "body"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20056",
+          "slot": "cloak"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20187",
+          "slot": "hands"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20194",
+          "slot": "feet"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20220",
+          "slot": "shield"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20264",
+          "slot": "neck"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20280",
+          "slot": "ring1"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "a-20314",
+          "slot": "belt"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "set-b",
+      "label": "03 套裝 B",
+      "description": "沿用舊測試武官敏捷裝10件；場景Lv40符合SQL限制。",
+      "actors": {
+        "hero": "knight40"
+      },
+      "items": [
+        {
+          "instanceId": "b-113",
+          "templateId": 113,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20020",
+          "templateId": 20020,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20113",
+          "templateId": 20113,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20058",
+          "templateId": 20058,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20167",
+          "templateId": 20167,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20201",
+          "templateId": 20201,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20228",
+          "templateId": 20228,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20267",
+          "templateId": 20267,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20282",
+          "templateId": 20282,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "b-20311",
+          "templateId": 20311,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [
+        {
+          "characterId": "hero",
+          "instanceId": "b-113",
+          "slot": "weapon"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20020",
+          "slot": "head"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20113",
+          "slot": "body"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20058",
+          "slot": "cloak"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20167",
+          "slot": "hands"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20201",
+          "slot": "feet"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20228",
+          "slot": "shield"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20267",
+          "slot": "neck"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20282",
+          "slot": "ring1"
+        },
+        {
+          "characterId": "hero",
+          "instanceId": "b-20311",
+          "slot": "belt"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "level-restricted",
+      "label": "04 等級不足",
+      "description": "Lv30嘗試穿戴SQL最低Lv40的武官頭盔；原頭盔應保留。",
+      "actors": {
+        "hero": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "head-old",
+          "templateId": 20011,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "head-level40",
+          "templateId": 20020,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [
+        {
+          "characterId": "hero",
+          "instanceId": "head-old",
+          "slot": "head"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "double-rings",
+      "label": "05 同款雙戒指",
+      "description": "兩枚滅魔戒指，請明確選ring1／ring2；可重試同一實例驗證拒絕。",
+      "actors": {
+        "hero": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "ring-a",
+          "templateId": 20280,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "ring-b",
+          "templateId": 20280,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [],
+      "checks": []
+    },
+    {
+      "id": "capacity-increase",
+      "label": "06 增加HP／MP上限",
+      "description": "穿戴靈魂腰帶20316；目前HP／MP不應補滿。",
+      "actors": {
+        "hero": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "soul-belt",
+          "templateId": 20316,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [],
+      "checks": []
+    },
+    {
+      "id": "capacity-clamp",
+      "label": "07 卸裝截斷HP／MP",
+      "description": "Lv45固定測試資源180／60，已穿死亡斗篷；卸下截斷至基礎上限100／20。",
+      "actors": {
+        "hero": "knight45-high"
+      },
+      "items": [
+        {
+          "instanceId": "death-cloak",
+          "templateId": 20075,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [
+        {
+          "characterId": "hero",
+          "instanceId": "death-cloak",
+          "slot": "cloak"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "replace-rollback",
+      "label": "08 替換與失敗回滾",
+      "description": "Lv45將抗魔法鏈甲換成武官護鎧，再嘗試騎士不可穿的古老皮盔甲。",
+      "actors": {
+        "hero": "knight45"
+      },
+      "items": [
+        {
+          "instanceId": "body-old",
+          "templateId": 20110,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "body-new",
+          "templateId": 20113,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "body-forbidden",
+          "templateId": 20092,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [
+        {
+          "characterId": "hero",
+          "instanceId": "body-old",
+          "slot": "body"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "weapon-resolution",
+      "label": "09 實際穿戴武器",
+      "description": "從空手開始；穿戴長劍31或細劍42，查看核心解析的實例與模板。",
+      "actors": {
+        "hero": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "long-sword",
+          "templateId": 31,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "rapier",
+          "templateId": 42,
+          "owner": "hero"
+        }
+      ],
+      "equipment": [],
+      "checks": []
+    },
+    {
+      "id": "ownership",
+      "label": "10 物品所有權",
+      "description": "本角色只持有長劍；拒絕案例嘗試穿戴另一角色的細劍。",
+      "actors": {
+        "hero": "knight30",
+        "other": "knight30"
+      },
+      "items": [
+        {
+          "instanceId": "own-sword",
+          "templateId": 31,
+          "owner": "hero"
+        },
+        {
+          "instanceId": "other-rapier",
+          "templateId": 42,
+          "owner": "other"
+        }
+      ],
+      "equipment": [],
+      "checks": [
+        {
+          "label": "嘗試穿戴另一角色的細劍",
+          "instanceId": "other-rapier",
+          "targetSlot": "weapon"
+        }
+      ]
+    }
+  ]
+}

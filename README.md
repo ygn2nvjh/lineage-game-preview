@@ -1,0 +1,61 @@
+# V0.6 0C-1 equipment preview
+
+Source: ygn2nvjh/lineage-game
+Source commit: 9ea5aabd19ed6d7d8b17db2b82434ab675c6be3e
+
+Entry: dev/core-equipment.html
+
+All runtime files are byte-for-byte exports of this fixed commit. No automatic synchronization. GitHub Pages is not configured by this commit.
+
+## SHA-256 of exported files
+
+c08d3c9f5232bbeaa2ad3e12444367b8f173e1c8cc4719e4d392e7cae48e443b  data/l1j-taiwan/items/armor-part-01.json
+5beac2a13e59fa9875e89db7f2fccb5bddc661f54bd3b788580e51cab492e7d6  data/l1j-taiwan/items/armor-part-02.json
+d0b98eb3e9977cab2e8cbe08f74e533acc9190bc5f0c88744e04a071624248bb  data/l1j-taiwan/items/armor-part-03.json
+f79b979ee71b607741a630918f2ffcd750e8c0f20f6913449e82d7a72af87376  data/l1j-taiwan/items/armor-part-04.json
+aed762a83d1cb5955fb61f4e33520afcc4cac87a190a2826a9fd13495793b5ea  data/l1j-taiwan/items/armor-part-05.json
+ccbc04d63c600d9c04e941eeceb2fbb27bc78f77bc136c48b0743e6581926a61  data/l1j-taiwan/items/armor-part-06.json
+b1f4019a581ca9f5dc432e18569de4a019ce5ca38a57d154421b0a68a696ac83  data/l1j-taiwan/items/armor-part-07.json
+4fd68ec5707136c05f201c13e3cf3813f6957c03399295a35334a4b4abbd0f8f  data/l1j-taiwan/items/armor-part-08.json
+2cbb67f0929b2d648fdff9557c85d6c5839b4a25e67b8e899190ce5029a23329  data/l1j-taiwan/items/armor-part-09.json
+41c352ae8fa12aada3608666b7ea5154c10678202ce97457c7567d45b059ff4d  data/l1j-taiwan/items/etcitem-part-01.json
+1201cd6894ffb4ff5915d00d1cb00e1e8d7ab7a7d4a0127391254bfa291bf7ac  data/l1j-taiwan/items/etcitem-part-02.json
+2f6a7e488a9b263e51a2349055068821eecf503ad7e22cf38b24870fcd3607ab  data/l1j-taiwan/items/etcitem-part-03.json
+6319bd5152fca61d919c6d3b12bd966f3123a8e68da49ba14390a8b463f8139e  data/l1j-taiwan/items/etcitem-part-04.json
+40c5ad90232e9d8d8f571e96c7251f5297bb211d2d9c73bca50107d48459e4e5  data/l1j-taiwan/items/etcitem-part-05.json
+afdca925db887695b0d022bc8e99aa90b0b9fb7291550ba0e9a0d2c306b07c62  data/l1j-taiwan/items/etcitem-part-06.json
+03ef105b4033ecb4e6f1d04edfef25b2164793b1ce2555b2e9f8b26706cee536  data/l1j-taiwan/items/etcitem-part-07.json
+301f0fc9aab495113bf47dbd7bf807bfe2de2e8ce5a312b9588329a0aaeb1e5c  data/l1j-taiwan/items/etcitem-part-08.json
+8d7b2d13acc16efe41e95dc7a41a32aa03e726e85dce343b1010213ab1788417  data/l1j-taiwan/items/etcitem-part-09.json
+237386af7250203b597740dc37994adf3f624057fa9f8f58cc91345738df1db1  data/l1j-taiwan/items/etcitem-part-10.json
+591439b75c2e4af1db6a6b52c3449b11c08b615ed80fb37466715f37c1625ea9  data/l1j-taiwan/items/etcitem-part-11.json
+0823a333221802379488b7da232c1338ca354919637346695b4798dcf1089b14  data/l1j-taiwan/items/etcitem-part-12.json
+f4921546ee9613d5ed2132b1aa910068f27074b6a3ec22749a2cab69beb44ada  data/l1j-taiwan/items/etcitem-part-13.json
+06e2c6568c1a4b710b76b5132c055ccb310cc57ab2cc0fe2f7920b4c06893d54  data/l1j-taiwan/items/etcitem-part-14.json
+b6d09a9de0650dc242e7f3830c70d2433daa4ad70f17103985d5713c4faaba0b  data/l1j-taiwan/items/etcitem-part-15.json
+f074038cc65ee107f6d8bf1b893e57ae94b2b9f8f36e292ba9d3918395ab2fe6  data/l1j-taiwan/items/etcitem-part-16.json
+c957a2a5d5ae1dfee2e348f9e553cb5d0e22361926843c6cac4e6f5a6e3fa15b  data/l1j-taiwan/items/etcitem-part-17.json
+9e2046305b2be4b00d5d3fdc05ddd1a73196e00fbba4b184ebc197689e519a79  data/l1j-taiwan/items/etcitem-part-18.json
+20499b6714ef8998fa1f8b86d692c31b9b236960507e4fc743fc844e03a4de4f  data/l1j-taiwan/items/etcitem-part-19.json
+2ffeed3a7f554ec1cc09201de87f4597ce74e305b49f9bddcf031c024c986e8e  data/l1j-taiwan/items/etcitem-part-20.json
+9d701020c74fbd3fe863e920efb163703f622d68ad52a0cec58b0119e3890890  data/l1j-taiwan/items/manifest.json
+3e91cdde098aaa846cf3d4feb04c23bdef8dd6bda24fafbf8ec866fc8889d775  data/l1j-taiwan/items/weapon-part-01.json
+edd4d6bf01a257bec2f330a365919dd1841af66002832e4992811438f436a641  data/l1j-taiwan/items/weapon-part-02.json
+844b663806e5f7bb83ef2790baea6e92b3ae98e3dbb3e9391cac6157f19e9f57  data/l1j-taiwan/items/weapon-part-03.json
+935a870b50216da4d08f7e1ad562e1cff2d5a9bf23f73436f48567e4ed6d89cf  data/l1j-taiwan/items/weapon-part-04.json
+3c41ac81d34193598582c229456a10d62f720915c52c7cc853bd471bfde6d7aa  data/l1j-taiwan/items/weapon-part-05.json
+e5460cbfc121870a10230f97cd885e2891f835d1d0c71555dbc7df3bae2376ca  dev/core-equipment.html
+42355a22eb35bd24cc5aad86f13eea823ea68655b86c33b4353f545971fb47d5  src/adapters/browser/core-equipment.mjs
+09352c31e864d9f74ac7d02dbd6f0737ee5a6c0af2cdfb3d3b904b144e384348  src/adapters/browser/item-catalog-pin.mjs
+6c196f980414473903082e87c2984f5e200b13f0fa0697590012896631f37908  src/adapters/browser/item-catalog.mjs
+14f23fa94017ccba02cb308ed669aa507f266ef128276c3d7acd4bfaab611411  src/core/catalog.mjs
+9a00e9967f078f114b8d78b6f2a3b80a6a996cf9e97629e5d5ce4f61db9cf37f  src/core/data.mjs
+226b34a350a056aa485248cb5c81a6f6c876b40e29f0d14adcd6453d7de2ce05  src/core/derived-stats.mjs
+93164c8f7e32cc8a7019c6ddc70d5d6aa4a455769408e2e45503fd58a8ce959c  src/core/equipment.mjs
+79c33be29ec29700b87b4e15cc9e8efe1320d080c8a57e7add09eeb03c788304  src/core/game.mjs
+0553e0e1387050e116b6eb7f86002990674a168be471f55a6bd83318203915c8  src/core/index.mjs
+179396cd926e92ae429e9b0c604b691796bdb388cf6ba772dd04180fd8a0482c  src/core/invariants.mjs
+50ce471cd3dbf20da6b46e72cfb2c52e207f9b5ac91b0d12dcea3f21d250a287  src/core/persistence/codec.mjs
+cbcf558eef73897cd0ff854dda561156cad2d3965b80aac3c526ccc25595cf60  src/core/persistence/migrations.mjs
+b0cd7688826a2c1305ef2a761f2a0063a68c4fd989566d6336d4699b99fb4859  src/core/rules/legacy-v0583.mjs
+632b8b373785ee02bbfefe61c27c9a96647b0afb86b9d68ac0fd9d82e90c4779  tests/fixtures/core-equipment-scenarios.json
