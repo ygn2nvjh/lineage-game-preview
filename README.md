@@ -59,3 +59,13 @@ e5460cbfc121870a10230f97cd885e2891f835d1d0c71555dbc7df3bae2376ca  dev/core-equip
 cbcf558eef73897cd0ff854dda561156cad2d3965b80aac3c526ccc25595cf60  src/core/persistence/migrations.mjs
 b0cd7688826a2c1305ef2a761f2a0063a68c4fd989566d6336d4699b99fb4859  src/core/rules/legacy-v0583.mjs
 632b8b373785ee02bbfefe61c27c9a96647b0afb86b9d68ac0fd9d82e90c4779  tests/fixtures/core-equipment-scenarios.json
+
+## 0C-2A HUD integration
+
+Source commit: e949ac2c81c66f06f120b33d87b08d51cdf867dd
+Entry: dev/core-hud-integration.html
+
+Only these three files are added; the pinned 0C-1 dependencies remain unchanged.
+49548e97901f13ca71e646441ada1d47576afa0e34da9300f37274fff8427fd9  dev/core-hud-integration.html
+9f80d980a73deb7844a94d9e677f88253b8fe39ba443c677678cb128c8e0ad40  src/adapters/browser/core-hud-integration.mjs
+35d8c2dd456473e910caa465e04df14dc5316227c73516461f546254b0fad2fa  src/adapters/browser/character-views.mjs

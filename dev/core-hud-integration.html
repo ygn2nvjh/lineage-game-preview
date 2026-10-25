@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V0.6 HUD 隔離接線</title><style>
+*{box-sizing:border-box}body{margin:12px;background:#101811;color:#f1e9ce;font:14px/1.6 system-ui,-apple-system,sans-serif}main{max-width:1100px;margin:auto}.hud{color:#e8d3a0;text-shadow:1px 2px #111;border:2px solid #171b17;padding:12px}.panels{display:grid;grid-template-columns:1fr 1fr;gap:12px}section{border:1px solid #c8ab70;border-radius:8px;padding:10px;min-width:0}button,select{font:inherit;padding:6px;margin:4px;max-width:100%}[data-bag]>div,[data-slots]>div{padding:8px 0;border-bottom:1px solid #506050;overflow-wrap:anywhere}fieldset{border:0;padding:0;min-width:0}[hidden]{display:none!important}@media(max-width:700px){.panels{grid-template-columns:1fr}}
+</style><main data-status="loading">
+<h1>V0.6 HUD／人物／裝備接線測試</h1><p>固定測試場景；不載入正式角色、地圖、戰鬥或存檔。</p>
+<p data-result role="status">載入中…</p><fieldset data-controls disabled><label>場景 <select data-scenario></select></label><button data-render>重新顯示</button><button data-panel="character">人物面板開關</button><button data-panel="equipment">裝備背包開關</button>
+<section class="hud" data-hud><b data-value="name"></b>・騎士 Lv.<b data-value="level"></b><p>HP <b data-value="hp"></b>　MP <b data-value="mp"></b>　AC <b data-value="ac"></b></p><p data-value="exp"></p><p>武器 <b data-value="weapon"></b></p></section>
+<section data-character><h2>人物</h2><p>Lv.<b data-value="level"></b>；六圍：基礎／裝備／合計</p><p>STR <b data-value="str"></b></p><p>DEX <b data-value="dex"></b></p><p>CON <b data-value="con"></b></p><p>INT <b data-value="int"></b></p><p>WIS <b data-value="wis"></b></p><p>CHA <b data-value="cha"></b></p><p>HP <b data-value="hp"></b>　MP <b data-value="mp"></b>　AC <b data-value="ac"></b></p><p>MR <b data-value="mr"></b>　ER <b data-value="er"></b>　負重 <b data-value="weight"></b>　效果 <b data-value="effects"></b></p></section>
+<div data-equipment><div class="panels"><section><h2>人物裝備</h2><div data-slots></div></section><section><h2>背包（含穿戴物）<b data-value="count"></b> 件</h2><div data-bag></div></section></div></div>
+</fieldset></main><script type="module">import {startHudIntegration} from '../src/adapters/browser/core-hud-integration.mjs';startHudIntegration(document.querySelector('main')).catch(()=>{});</script></html>
